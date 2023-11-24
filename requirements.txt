@@ -17,4 +17,3 @@ gevent==1.2.2
 #Flask-SocketIO==4.2.1
 tornado==5.1.1
 PyYAML==5.4.1
-config==0.5.1
