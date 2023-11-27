@@ -7,7 +7,7 @@ from cacher import *
 from debug import *
 from common import *
 import random
-import config
+from config import config
 
 try:
   expTime=config.BTCBAL_CACHE

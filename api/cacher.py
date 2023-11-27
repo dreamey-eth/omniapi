@@ -1,4 +1,4 @@
-import config
+from config import config
 import redis
 import json
 from debug import *

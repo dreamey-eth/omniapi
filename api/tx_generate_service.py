@@ -5,7 +5,6 @@ from decimal import Decimal
 from flask_rate_limit import *
 from common import *
 from blockchain_utils import *
-import config
 from omnitransaction import OmniTransaction
 from debug import *
 

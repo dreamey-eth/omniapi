@@ -4,7 +4,7 @@ from decimal import Decimal
 from common import *
 from blockchain_utils import *
 from debug import *
-import config
+from config import config
 
 class OmniTransaction:
     confirm_target=6
