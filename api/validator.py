@@ -1,5 +1,5 @@
 from hashlib import sha256
-from config import config
+from api_config import config
 
 BTC_B58Chars = b'123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
 

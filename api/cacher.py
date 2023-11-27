@@ -1,4 +1,4 @@
-from config import config
+from api_config import config
 import redis
 import json
 from debug import *

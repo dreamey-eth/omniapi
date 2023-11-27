@@ -1,6 +1,6 @@
 import requests
 import datetime
-from config import CFID,CFKEY
+from api_config import CFID,CFKEY
 
 def getHeaders():
   header = {"Authorization": "Bearer "+str(CFKEY), "Content-Type": "application/json"}

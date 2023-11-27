@@ -20,7 +20,7 @@ from email.Utils import COMMASPACE, formatdate
 from email import Encoders
 from sqltools import *
 from recaptcha.client import captcha
-from config import config
+from api_config import config
 
 ACCOUNT_CREATION_DIFFICULTY = '0400'
 LOGIN_DIFFICULTY = '0400'

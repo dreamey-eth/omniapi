@@ -7,7 +7,7 @@ from common import *
 from property_service import getpropertyraw
 from cacher import *
 from debug import *
-from config import config
+from api_config import config
 
 data_dir_root = config.LOCALDATADIR
 

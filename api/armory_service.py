@@ -4,7 +4,7 @@ from decimal import Decimal
 #from flask import Flask, request, jsonify, abort, json, make_response
 from flask_rate_limit import *
 from rpcclient import *
-from config import config
+from api_config import config
 
 sys.path.append("/usr/local/lib/armory/")
 from armoryengine.ALL import *

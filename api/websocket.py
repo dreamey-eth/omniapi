@@ -16,7 +16,7 @@ from omnidex import getOrderbook
 from values_service import getValueBook
 from cacher import *
 from validator import *
-from config import config
+from api_config import config
 
 
 class WSHandler(tornado.websocket.WebSocketHandler):

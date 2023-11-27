@@ -1,7 +1,7 @@
 import os, sys, commands
 import datetime
 
-from config import DEBUG_LEVEL
+from api_config import DEBUG_LEVEL
 LOGDIR=os.environ.get('LOGDIR')
 
 def print_debug( msg, verbose):

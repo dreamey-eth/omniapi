@@ -6,7 +6,7 @@ from debug import *
 from pending import checkpendingpaymentduplicate
 from decimal import Decimal
 import random
-from config import config
+from api_config import config
 
 try:
   TESTNET = (config.TESTNET == 1)
